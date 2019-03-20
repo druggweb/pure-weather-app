@@ -19,7 +19,7 @@ function searchWeather(searchTerm) {
 }
 
 function init(resultFromServer) {
-  //console.log(resultFromServer);
+  console.log(resultFromServer);
   switch (resultFromServer.weather[0].main) {
     case 'Clear':
       document.body.style.backgroundImage = 'url("clear.jpg")';
